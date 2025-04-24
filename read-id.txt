@@ -1,157 +1,143 @@
-        0 J-Link> TDI0
-        0 J-Link> TMS1
-        0 J-Link> TCK0
-        0 J-Link> TRSTN = 0
+--- Init ---
 
-    1500000:|*************************START*****************************
-    19500 J-Link> RESET = 0
-29500000:|********************RESET DEASSERTED***********************
-    31500 J-Link> TRSTN = 1
-    32500 J-Link> TCK1
-    34500 J-Link> TCK0
-    34501 J-Link> TDO = 1
-    36500 J-Link> TCK1
-    38500 J-Link> TCK0
-    40500 J-Link> TCK1
-    42500 J-Link> TCK0
-    44500 J-Link> TCK1
-    46500 J-Link> TCK0
-    47500 J-Link> TMS0
-    48500 J-Link> TCK1
-    50500 J-Link> TCK0
-    52500 J-Link> TCK1
-    54500 J-Link> TCK0
-    56500 J-Link> TCK1
-    58500 J-Link> TCK0
-    60500 J-Link> TCK1
-    62500 J-Link> TCK0
-    64500 J-Link> TCK1
-    65500 J-Link> TMS1
-    66500 J-Link> TCK0
-    68500 J-Link> TCK1
-    70500 J-Link> TCK0
-    72500 J-Link> TCK1
-    73500 J-Link> TMS0
-    74500 J-Link> TCK0
-    76500 J-Link> TCK1
-    78500 J-Link> TCK0
-    80500 J-Link> TCK1
-    81500 J-Link> TDI1
-    82500 J-Link> TCK0
-    84500 J-Link> TCK1
-    85500 J-Link> TDI0
-    86500 J-Link> TCK0
-    86501 J-Link> TDO = 0
-    88500 J-Link> TCK1
-    90500 J-Link> TCK0
-    92500 J-Link> TCK1
-    94500 J-Link> TCK0
-    96500 J-Link> TCK1
-    97500 J-Link> TMS1
-    98500 J-Link> TCK0
-    100500 J-Link> TCK1
-    102500 J-Link> TCK0
-    102501 J-Link> TDO = 1
-    104500 J-Link> TCK1
-    105500 J-Link> TMS0
-    106500 J-Link> TCK0
-    108500 J-Link> TCK1
-    110500 J-Link> TCK0
-    112500 J-Link> TCK1
-    114500 J-Link> TCK0
-    116500 J-Link> TCK1
-    118500 J-Link> TCK0
-    120500 J-Link> TCK1
-    122500 J-Link> TCK0
-    124500 J-Link> TCK1
-    126500 J-Link> TCK0
-    128500 J-Link> TCK1
-    129500 J-Link> TMS1
-    130500 J-Link> TCK0
-    132500 J-Link> TCK1
-    133500 J-Link> TMS0
-    134500 J-Link> TCK0
-    136500 J-Link> TCK1
-    138500 J-Link> TCK0
-    140500 J-Link> TCK1
-    142500 J-Link> TCK0
-    144500 J-Link> TCK1
-    146500 J-Link> TCK0
-    148500 J-Link> TCK1
-    150500 J-Link> TCK0
-    150501 J-Link> TDO = 0
-    152500 J-Link> TCK1
-    154500 J-Link> TCK0
-    154501 J-Link> TDO = 1
-    156500 J-Link> TCK1
-    158500 J-Link> TCK0
-    158501 J-Link> TDO = 0
-    160500 J-Link> TCK1
-    162500 J-Link> TCK0
-    164500 J-Link> TCK1
-    166500 J-Link> TCK0
-    168500 J-Link> TCK1
-    170500 J-Link> TCK0
-    170501 J-Link> TDO = 1
-    172500 J-Link> TCK1
-    174500 J-Link> TCK0
-    174501 J-Link> TDO = 0
-    176500 J-Link> TCK1
-    178500 J-Link> TCK0
-    178501 J-Link> TDO = 1
-    180500 J-Link> TCK1
-    182500 J-Link> TCK0
-    182501 J-Link> TDO = 0
-    184500 J-Link> TCK1
-    186500 J-Link> TCK0
-    188500 J-Link> TCK1
-    190500 J-Link> TCK0
-    192500 J-Link> TCK1
-    194500 J-Link> TCK0
-    196500 J-Link> TCK1
-    198500 J-Link> TCK0
-    200500 J-Link> TCK1
-    202500 J-Link> TCK0
-    204500 J-Link> TCK1
-    206500 J-Link> TCK0
-    208500 J-Link> TCK1
-    210500 J-Link> TCK0
-    212500 J-Link> TCK1
-    214500 J-Link> TCK0
-    216500 J-Link> TCK1
-    218500 J-Link> TCK0
-    220500 J-Link> TCK1
-    222500 J-Link> TCK0
-    224500 J-Link> TCK1
-    226500 J-Link> TCK0
-    228500 J-Link> TCK1
-    230500 J-Link> TCK0
-    232500 J-Link> TCK1
-    234500 J-Link> TCK0
-    236500 J-Link> TCK1
-    238500 J-Link> TCK0
-    240500 J-Link> TCK1
-    242500 J-Link> TCK0
-    244500 J-Link> TCK1
-    246500 J-Link> TCK0
-    248500 J-Link> TCK1
-    250500 J-Link> TCK0
-    252500 J-Link> TCK1
-    254500 J-Link> TCK0
-    256500 J-Link> TCK1
-    258500 J-Link> TCK0
-    260500 J-Link> TCK1
-    262500 J-Link> TCK0
-    264500 J-Link> TCK1
-    265500 J-Link> TMS1
-    266500 J-Link> TCK0
-    268500 J-Link> TCK1
-    270500 J-Link> TCK0
-    272500 J-Link> TCK1
-    273500 J-Link> TMS0
-    274500 J-Link> TCK0
-    276500 J-Link> TCK1
-    278500 J-Link> TCK0
-    280500 J-Link> TCK1
-281500000: ID CODE: 0000028b
-281500000: JTAG Read ID  -- Data: 0x000000000000028b
+J-Link>TDI0
+J-Link>TMS1
+J-Link>TCK0
+J-Link>R0
+
+J-Link>R1
+J-Link>TCK1
+J-Link>TCK0
+J-Link>TCK1
+J-Link>TCK0
+J-Link>TCK1
+J-Link>TCK0
+J-Link>TCK1
+J-Link>TCK0
+J-Link>TMS0
+J-Link>TCK1
+
+--- ShiftIR ---
+
+(TMS0 implied)
+J-Link>TCK0
+J-Link>TCK1
+J-Link>TCK0
+J-Link>TCK1
+J-Link>TCK0
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TMS1
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TMS1
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TMS0
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TMS0
+J-Link>TCK1
+J-Link>TCK0
+
+--- ShiftIR tdi loop ---
+
+J-Link>TDI1
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TDI0
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TDI0
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TDI0
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TDI0
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TDI0 -- extra
+J-Link>TCK1 -- extra
+J-Link>TCK0 -- extra
+
+J-Link>TDI0
+J-Link>TMS1
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TMS1
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TMS0
+J-Link>TCK1
+J-Link>TCK0
+
+--- ShiftDR ---
+J-Link>TCK1
+J-Link>TCK0
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TMS0
+J-Link>TCK1
+J-Link>TCK0
+J-Link>TCK1
+J-Link>TCK0
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TMS1
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TMS0
+J-Link>TCK1
+J-Link>TCK0
+
+J-Link>TMS0
+J-Link>TCK1
+J-Link>TCK0
+
+--- ShiftDR tdi loop ---
+J-Link>TDI0
+J-Link>TCK1 .. TDO shows 1
+J-Link>TCK0
+
+J-Link>TDI0
+J-Link>TCK1 .. TDO shows 1
+J-Link>TCK0
+
+J-Link>TDI0
+J-Link>TCK1 .. TDO shows 1
+J-Link>TCK0
+
+J-Link>TDI0
+J-Link>TCK1 .. TDO shows 1
+J-Link>TCK0
+
+J-Link>TDI0
+J-Link>TCK1 .. TDO shows 1
+J-Link>TCK0
+
+J-Link>TDI0
+J-Link>TCK1 .. TDO shows 1
+J-Link>TCK0
+
+J-Link>TDI0
+J-Link>TCK1 .. TDO shows 1
+J-Link>TCK0
+
+J-Link>TDI0
+J-Link>TCK1 .. TDO shows 1
+J-Link>TDI0

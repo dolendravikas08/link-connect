@@ -1,0 +1,139 @@
+#--- Init ---
+
+TDI0
+TMS1
+TCK0
+R0
+
+R1
+TCK1
+TCK0
+TCK1
+TCK0
+TCK1
+TCK0
+TCK1
+TCK0
+TMS0
+TCK1
+
+#--- ShiftIR ---
+
+(TMS0 implied)
+TCK0
+TCK1
+TCK0
+TCK1
+TCK0
+TCK1
+TCK0
+
+TMS1
+TCK1
+TCK0
+
+TMS1
+TCK1
+TCK0
+
+TMS0
+TCK1
+TCK0
+
+TMS0
+TCK1
+TCK0
+
+#--- ShiftIR tdi loop ---
+
+TDI1
+TCK1
+TCK0
+
+TDI0
+TCK1
+TCK0
+
+TDI0
+TCK1
+TCK0
+
+TDI0
+TCK1
+TCK0
+
+TDI0
+TCK1
+TCK0
+
+TDI0
+TMS1
+TCK1
+TCK0
+
+TMS1
+TCK1
+TCK0
+
+TMS0
+TCK1
+TCK0
+
+#--- ShiftDR ---
+TCK1
+TCK0
+TCK1
+TCK0
+
+TMS0
+TCK1
+TCK0
+TCK1
+TCK0
+TCK1
+TCK0
+
+TMS1
+TCK1
+TCK0
+
+TMS0
+TCK1
+TCK0
+
+TMS0
+TCK1
+TCK0
+
+#--- ShiftDR tdi loop ---
+TDI0
+TCK1 # .. TDO shows 1
+TCK0
+
+TDI0
+TCK1 # .. TDO shows 1
+TCK0
+
+TDI0
+TCK1 # .. TDO shows 1
+TCK0
+
+TDI0
+TCK1 # .. TDO shows 1
+TCK0
+
+TDI0
+TCK1 # .. TDO shows 1
+TCK0
+
+TDI0
+TCK1 # .. TDO shows 1
+TCK0
+
+TDI0
+TCK1 # .. TDO shows 1
+TCK0
+
+TDI0
+TCK1 # .. TDO shows 1
+TDI0

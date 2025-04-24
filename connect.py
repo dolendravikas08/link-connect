@@ -65,7 +65,7 @@ def read_commands_from_file(file_path):
     """
     try:
         with open(file_path, "r") as file:
-            commands = [line.strip() for line in file if line.strip()]
+            commands = [line.split("#")[0].strip() for line in file if line.strip() and not line.strip().startswith("#")]
         return commands
     except FileNotFoundError:
         print(f"Error: File not found at '{file_path}'")
@@ -87,8 +87,10 @@ if __name__ == "__main__":
     # Read commands from the file
     jlink_commands = read_commands_from_file(commands_file_path)
 
+    print(jlink_commands)
+
     # Path to the J-Link Commander executable (update this if necessary)
-    jlink_executable_path = "JLinkExe"
+    jlink_executable_path = "/Applications/SEGGER/JLink/JLinkExe"
 
     # Run the commands
     run_jlink_commands(jlink_commands, jlink_executable_path)
