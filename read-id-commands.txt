@@ -1,5 +1,11 @@
 #--- Init ---
 
+connect     # to connect to the jlink edu mini
+ARM7        # select the device
+JTAG        # target interface
+-1, -1      # Device position in JTAG chain (IRPre,DRPre) <Default>: -1,-1 => Auto-detect
+4000 kHz    # Specify target interface speed [kHz]. <Default>: 4000 kHz
+
 TDI0
 TMS1
 TCK0
